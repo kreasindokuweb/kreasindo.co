@@ -168,7 +168,7 @@ h6,
     margin-top: -75px;
     background: linear-gradient(180deg, rgba(45, 75, 89, 0.50) 57.5%, #ECF0F2 100%), url('./Img/Home-Up.png') center center no-repeat;
     background-size: cover;
-    height: 700px;
+    height: auto;
     color: #ecf0f2;
     text-shadow: 5px 5px 20px rgba(26, 44, 53, 0.70);
 }
@@ -247,7 +247,7 @@ h6,
 
 /*** service start ***/
 .service {
-    background: linear-gradient(180deg, #ECF0F2 18.85%, rgba(150, 166, 173, 0.60) 53.35%, #2D4B59 95.48%), url(../Img/Values.svg) center center no-repeat;
+    background: linear-gradient(180deg, #ECF0F2 18.85%, rgba(150, 166, 173, 0.60) 53.35%, #2D4B59 95.48%), url('./Img/Values.svg') center center no-repeat;
     height: 900px;
     background-size: cover;
 }
@@ -414,7 +414,7 @@ h6,
 
 /*** Explore Tour Start ***/
 .ExploreTour {
-    background: linear-gradient(180deg, #2D4B59 3.86%, rgba(150, 165, 172, 0.50) 52.05%, #FFF 100%), url(../Img/Home-Products-2.svg) center center no-repeat;
+    background: linear-gradient(180deg, #2D4B59 3.86%, rgba(150, 165, 172, 0.50) 52.05%, #FFF 100%), url('./Img/Home-Products-2.svg') center center no-repeat;
     height: 750px;
     background-size: cover;
 }
@@ -628,62 +628,62 @@ h6,
 }
 
 .item1 {
-    background: url(../Img/Mitsubishi.svg) center center no-repeat;
+    background: url('./Img/Mitsubishi.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 1) * -1);
 }
 
 .item2 {
-    background: url(../Img/Nasmoco.svg) center center no-repeat;
+    background: url('./Img/Nasmoco.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 2) * -1);
 }
 
 .item3 {
-    background: url(../Img/Polri.svg) center center no-repeat;
+    background: url('./Img/Polri.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 3) * -1);
 }
 
 .item4 {
-    background: url(../Img/PoldaDIY.svg) center center no-repeat;
+    background: url('./Img/PoldaDIY.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 4) * -1);
 }
 
 .item5 {
-    background: url(../Img/PemprovDIY.svg) center center no-repeat;
+    background: url('./Img/PemprovDIY.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 5) * -1);
 }
 
 .item6 {
-    background: url(../Img/PemkotJogja.svg) center center no-repeat;
+    background: url('./Img/PemkotJogja.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 6) * -1);
 }
 
 .item7 {
-    background: url(../Img/UGM.svg) center center no-repeat;
+    background: url('./Img/UGM.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 7) * -1);
 }
 
 .item8{
-    background: url(../Img/UMY.svg) center center no-repeat;
+    background: url('./Img/UMY.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 8) * -1);
 }
 
 .item9 {
-    background: url(../Img/PemdaKP.svg) center center no-repeat;
+    background: url('./Img/PemdaKP.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 9) * -1);
 }
 
 .item10 {
-    background: url(../Img/BPDDIY.svg) center center no-repeat;
+    background: url('./Img/BPDDIY.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 10) * -1);
 }
 
 .item31 {
-    background: url(../Img/UAD.svg) center center no-repeat;
+    background: url('./Img/UAD.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 11) * -1);
 }
 
 .item32 {
-    background: url(../Img/UII.svg) center center no-repeat;
+    background: url('./Img/UII.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 12) * -1);
 }
 
@@ -706,62 +706,62 @@ h6,
   }
 
 .item11 {
-    background: url(../Img/Lazismu.svg) center center no-repeat;
+    background: url('./Img/Lazismu.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 1) * -1);
 }
 
 .item12 {
-    background: url(../Img/legendC.svg) center center no-repeat;
+    background: url('./Img/legendC.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 2) * -1);
 }
 
 .item13 {
-    background: url(../Img/KPU.svg) center center no-repeat;
+    background: url('./Img/KPU.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 3) * -1);
 }
 
 .item14 {
-    background: url(../Img/BCA.svg) center center no-repeat;
+    background: url('./Img/BCA.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 4) * -1);
 }
 
 .item15 {
-    background: url(../Img/BRI.svg) center center no-repeat;
+    background: url('./Img/BRI.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 5) * -1);
 }
 
 .item16 {
-    background: url(../Img/Telkom.svg) center center no-repeat;
+    background: url('./Img/Telkom.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 6) * -1);
 }
 
 .item17 {
-    background: url(../Img/BBPPMPV.svg) center center no-repeat;
+    background: url('./Img/BBPPMPV.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 7) * -1);
 }
 
 .item18 {
-    background: url(../Img/PMI.svg) center center no-repeat;
+    background: url('./Img/PMI.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 8) * -1);
 }
 
 .item19 {
-    background: url(../Img/UNY.svg) center center no-repeat;
+    background: url('./Img/UNY.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 9) * -1);
 }
 
 .item20 {
-    background: url(../Img/UPN.svg) center center no-repeat;
+    background: url('./Img/UPN.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 10) * -1);
 }
 
 .item41 {
-    background: url(../Img/Unisa.svg) center center no-repeat;
+    background: url('./Img/Unisa.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 11) * -1);
 }
 
 .item42 {
-    background: url(../Img/UIN.svg) center center no-repeat;
+    background: url('./Img/UIN.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 12) * -1);
 }
 
@@ -771,7 +771,7 @@ h6,
 
 /* Footer Start */
 .footer {
-    background: linear-gradient(180deg, #1a2c35 3.86%, rgba(26, 44, 53, 0.79) 52.05%, rgba(26, 44, 53, 0.79) 100%), url(../Img/Jogja.svg) center center no-repeat;
+    background: linear-gradient(180deg, #1a2c35 3.86%, rgba(26, 44, 53, 0.79) 52.05%, rgba(26, 44, 53, 0.79) 100%), url('./Img/Jogja.svg') center center no-repeat;
     height: auto;
     background-size: cover;
 }
