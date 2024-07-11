@@ -166,7 +166,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-top: -75px;
-    background: "../Img/Home-Up.png" center center no-repeat;
+    background: linear-gradient(180deg, rgba(45, 75, 89, 0.50) 57.5%, #ECF0F2 100%), url("../Img/Home-Up.png") center center no-repeat;
     background-size: cover;
     height: 700px;
     color: #ecf0f2;
