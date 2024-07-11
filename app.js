@@ -1,6 +1,6 @@
 (function ($) {
     // International Tour carousel
-    $(".owl-carousel").owlCarousel({
+    $(".InternationalTour-carousel ").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
         center: false,
