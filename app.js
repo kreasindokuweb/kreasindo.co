@@ -1,4 +1,4 @@
-(function ($) {
+ $(document).ready(function() {
     // International Tour carousel
     $(".InternationalTour-carousel ").owlCarousel({
         autoplay: true,
