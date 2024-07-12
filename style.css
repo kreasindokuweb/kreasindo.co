@@ -715,6 +715,7 @@ h6,
     animation-delay: calc(30s / 12 * (12 - 2) * -1);
 }
 
+
 .item13 {
     background: url('./Img/KPU.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 3) * -1);
