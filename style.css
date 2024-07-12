@@ -711,7 +711,7 @@ h6,
 }
 
 .item12 {
-    background: url('./Img/legendC.svg') center center no-repeat;
+    background: url('./Img/legend.svg') center center no-repeat;
     animation-delay: calc(30s / 12 * (12 - 2) * -1);
 }
 
