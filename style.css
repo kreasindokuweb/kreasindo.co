@@ -398,80 +398,25 @@ h6,
 }
 
 
-/*** Explore Tour Start ***/
-.ExploreTour .tab-class .nav-item {
-    padding: 0 0 20px 0;
-}
-.ExploreTour .tab-class .nav-item a.active {
-    background: var(--bs-primary) !important;
-}
-
-.ExploreTour .tab-class .nav-item a.active span {
-    color: var(--bs-white) !important;
-}
-
-
-/* National Tour Start */
-.ExploreTour #NationalTab-1 .national-item {
+/* International Tour Start */
+.ExploreTour #InternationalTab-2 .international-layer {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-}
-
-.ExploreTour #NationalTab-1 .national-item img {
-    transition: 0.5s;
-}
-
-.ExploreTour #NationalTab-1 .national-item:hover img {
-    transform: scale(1.2);
-}
-
-.ExploreTour #NationalTab-1 .national-item .national-content {
-    position: absolute;
+    padding: 15px;
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-    padding: 20px;
-    background: rgba(0, 0, 0, .2);
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    transition: 0.5s;
+    height: auto;
+    border-radius: 20.859px;
+    border: 2px solid #FFF;
+    background: linear-gradient(116deg, rgba(255, 255, 255, 0.40) -2.12%, rgba(255, 255, 255, 0.30) 100%);
+    backdrop-filter: blur(2.5px);
+    margin: auto;
+    -webkit-border-radius: 20.859px;
+    -moz-border-radius: 20.859px;
+    -ms-border-radius: 20.859px;
+    -o-border-radius: 20.859px;
 }
 
-.ExploreTour #NationalTab-1 .national-item:hover .national-content {
-    background: rgba(19, 53, 123, .6);
-}
-
-.ExploreTour #NationalTab-1 .national-item .national-plus-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s;
-    opacity: 0;
-}
-
-.ExploreTour #NationalTab-1 .national-item:hover .national-plus-icon {
-    opacity: 1;
-}
-
-.ExploreTour #NationalTab-1 .national-item .tour-offer {
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    padding: 20px;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 80px;
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
-
-/* International Tour Start */
 .ExploreTour #InternationalTab-2 .international-item {
     position: relative;
     border-radius: 10px;
@@ -486,18 +431,6 @@ h6,
     transform: scale(1.2);
 }
 
-.ExploreTour #InternationalTab-2 .international-item .tour-offer {
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    padding: 20px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 80px;
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
 
 .ExploreTour #InternationalTab-2 .international-item .international-content {
     position: absolute;
@@ -515,12 +448,21 @@ h6,
 }
 
 .ExploreTour #InternationalTab-2 .international-item:hover .international-content {
-    background: rgba(19, 53, 123, .6);
+    background: rgb(57, 96, 115, .5);
 }
 
-.ExploreTour #InternationalTab-2 .international-item .international-content .international-info a {
-    font-size: 14px;
+.ExploreTour #InternationalTab-2 .international-item .international-content .international-info h5 {
+    margin-bottom: 45px;
+    color: var(--Foundation-Primary-primary-50, #ECF0F2);
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 50% */
 }
+
+
 
 .ExploreTour #InternationalTab-2 .international-item .international-plus-icon {
     position: absolute;
@@ -554,15 +496,19 @@ h6,
     margin: 0 5px;
     width: 15px;
     height: 15px;
-    background: var(--bs-light);
-    border: 1px solid var(--bs-primary);
+    background: var(--Foundation-Primary-primary--50);
+    border: 1px solid var(--Foundation-Primary-primary--500);
     border-radius: 10px;
     transition: 0.5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .ExploreTour #InternationalTab-2 .InternationalTour-carousel .owl-dot.active {
     width: 40px;
-    background: var(--bs-primary);
+    background: var(--Foundation-Primary-primary--500);
 }
 /*** Explore Tour End ***/
 
