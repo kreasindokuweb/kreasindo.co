@@ -772,7 +772,7 @@ h6,
 
 /* Footer Start */
 .footer {
-    background: linear-gradient(180deg, #1a2c35 3.86%, rgba(26, 44, 53, 0.79) 52.05%, rgba(26, 44, 53, 0.79) 100%), url('./Img/Jogja.svg') center center no-repeat;
+    background: linear-gradient(180deg, #1a2c35 3.86%, rgba(26, 44, 53, 0.79) 52.05%, rgba(26, 44, 53, 0.79) 100%), url('./Img/jogja.svg') center center no-repeat;
     height: auto;
     background-size: cover;
 }
