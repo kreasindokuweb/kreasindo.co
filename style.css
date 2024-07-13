@@ -724,12 +724,9 @@ h6,
 
 /* Footer Start */
 .footer {
-    margin-top: -75px;
-    background: linear-gradient(180deg, rgba(45, 75, 89, 0.50) 57.5%, #ECF0F2 100%), url('./Img/Home-Up.png') center center no-repeat;
-    background-size: cover;
+    background: linear-gradient(180deg, #1a2c35 3.86%, rgba(26, 44, 53, 0.79) 52.05%, rgba(26, 44, 53, 0.79) 100%), url('./Img/Jogja.svg') center center no-repeat;
     height: auto;
-    color: #ecf0f2;
-    text-shadow: 5px 5px 20px rgba(26, 44, 53, 0.70);
+    background-size: cover;
 }
 
 .footer .logo {
