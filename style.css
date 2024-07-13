@@ -861,7 +861,7 @@ h6,
 
 .footer .map {
     position: relative;
-    width: 70%;
+    width: 95%;
     height: auto;
     border-radius: 10px;
     background: linear-gradient(116deg, rgba(255, 255, 255, 0.20) -5.12%, rgba(255, 255, 255, 0.10) 100%);
@@ -871,6 +871,7 @@ h6,
 
 .footer iframe {
     height: 300px;
+    widht: 100%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
