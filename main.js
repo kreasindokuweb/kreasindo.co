@@ -1,6 +1,15 @@
 (function ($) {
     "use strict";
 
+    // Sticky Navbar
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.sticky-top').addClass('showcolor shadow-sm').css('top', '0px');
+        } else {
+            $('.sticky-top').removeClass('showcolor shadow-sm').css('top', '-150px');
+        }
+    });
+
     // International Tour carousel
     $(".InternationalTour-carousel").owlCarousel({
         autoplay: true,
