@@ -15,7 +15,7 @@ const Navbar = () => {
                     className="cursor-pointer hover:animate-slowspin"
                 />
                 <span className='font-bold ml-[10px] hidden md:block text-gray-300'>
-                    Webchain Dev
+                    Falah's Portfolio
                 </span>    
             </a>
             <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
@@ -26,16 +26,29 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="flex flex-row gap-5">
-                {Socials.map((social) => (
-                    <Image
-                        src={social.src}
-                        alt={social.name}
-                        key={social.name}
-                        width={24}
-                        height={24}
-                    />
-                ))}
+                    {Socials.map((social) => (
+                        <a
+                            href={
+                                social.name === "Linkedin"
+                                    ? "https://www.linkedin.com/in/raihanfalah/"
+                                    : social.name === "Instagram"
+                                    ? "https://instagram.com/raihanfalahh"
+                                    : "#"
+                            }
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            key={social.name}
+                        >
+                            <Image
+                                src={social.src}
+                                alt={social.name}
+                                width={24}
+                                height={24}
+                            />
+                        </a>
+                    ))}
             </div>
+
         </div>
 
     </div>
