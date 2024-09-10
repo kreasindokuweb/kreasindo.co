@@ -102,14 +102,20 @@
     font-weight: 900;
 }
 
+.ExploreTour .tab-content {
+    row-gap: 30px; /* Vertical gap */
+    column-gap: 10px; /* Horizontal gap */
+    justify-items: center; /* Center items within their cells */
+}
+
 /* International Tour Start */
-.ExploreTour #InternationalTab-2 .international-layer {
+.ExploreTour .international-layer {
+    width: 350px;
+    height: auto;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
     padding: 15px;
-    width: 380px;
-    height: 300px;
     border-radius: 20.859px;
     border: 2px solid #FFF;
     background: linear-gradient(116deg, rgba(255, 255, 255, 0.40) -2.12%, rgba(255, 255, 255, 0.30) 100%);
@@ -117,22 +123,22 @@
     margin: auto;
 }
 
-.ExploreTour #InternationalTab-2 .international-item {
+.ExploreTour .international-item {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.ExploreTour #InternationalTab-2 .international-item img {
+.ExploreTour .international-item img {
     transition: 0.5s;
 }
 
-.ExploreTour #InternationalTab-2 .international-item:hover img {
+.ExploreTour .international-item:hover img {
     transform: scale(1.2);
 }
 
 
-.ExploreTour #InternationalTab-2 .international-item .international-content {
+.ExploreTour .international-item .international-content {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -147,11 +153,11 @@
     transition: 0.5s;
 }
 
-.ExploreTour #InternationalTab-2 .international-item:hover .international-content {
+.ExploreTour .international-item:hover .international-content {
     background: rgb(57, 96, 115, .5);
 }
 
-.ExploreTour #InternationalTab-2 .international-item .international-content .international-info h5 {
+.ExploreTour .international-item .international-content .international-info h5 {
     margin-bottom: 45px;
     color: var(--Foundation-Primary-primary-50, #ECF0F2);
     text-align: center;
@@ -164,7 +170,7 @@
 
 
 
-.ExploreTour #InternationalTab-2 .international-item .international-plus-icon {
+.ExploreTour .international-item .international-plus-icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -177,7 +183,7 @@
     -o-transform: translate(-50%, -50%);
 }
 
-.ExploreTour #InternationalTab-2 .international-item:hover .international-plus-icon {
+.ExploreTour .international-item:hover .international-plus-icon {
     opacity: 1;
 }
 /*** Explore Tour End ***/
