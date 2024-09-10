@@ -84,7 +84,7 @@
 /*** Explore Tour Start ***/
 .ExploreTour {
     background: linear-gradient(0deg, #1A2C35 1.41%, rgba(45, 75, 89, 0.90) 49.98%, #ECF0F2 98%), url('./Img/Products-Products.svg') center center no-repeat;
-    height: 1800px;
+    height: auto;
     background-size: cover;
 }
 
@@ -106,6 +106,27 @@
     row-gap: 30px; /* Vertical gap */
     column-gap: 10px; /* Horizontal gap */
     justify-items: center; /* Center items within their cells */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .ExploreTour .tab-content {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+
+    .ExploreTour h1 {
+        font-size: 50px; /* Smaller font size on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .ExploreTour .tab-content {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+
+    .ExploreTour h1 {
+        font-size: 40px; /* Further adjust font size for small screens */
+    }
 }
 
 /* International Tour Start */
